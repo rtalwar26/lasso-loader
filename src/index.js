@@ -4,7 +4,7 @@ var modulesRuntime = module.__runtime;
 var resourceLoader = require('./resource-loader');
 var EventEmitter = require('events').EventEmitter;
 
-var timeout = 10000;
+var timeout = 20000;
 var pending = {};
 var completed = {};
 var failed = {};
